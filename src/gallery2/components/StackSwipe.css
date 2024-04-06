@@ -1,0 +1,328 @@
+@keyframes swipeNext{
+    50% {
+        transform: translate(calc(-50% - 300px), calc(var(--y) - 50px)) scale(0.5);
+    }
+
+    100%{
+        transform: translate(-50%, calc(var(--y) - 40px)) scale(0.8);
+        z-index: 2;
+    }
+}
+
+@keyframes swipePrev{
+    50%{
+        transform: translate(calc(-50% + 300px), calc(var(--y) + 10px)) scale(0.5);
+    }
+
+    100% {
+        transform: translate(-50%, calc(var(--y) + 40px)) scale(1.05);
+        z-index: 4;
+    } 
+}
+
+@media screen and (min-width: 400px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 450px), calc(var(--y) - 50px)) scale(0.5);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 40px)) scale(0.8);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        50%{
+            transform: translate(calc(-50% + 400px), calc(var(--y) + 10px)) scale(0.5);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 60px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 500px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 600px), calc(var(--y) - 50px)) scale(0.5);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 40px)) scale(0.8);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        50%{
+            transform: translate(calc(-50% + 500px), calc(var(--y) + 10px)) scale(0.5);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 80px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 600px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 650px), calc(var(--y) - 50px)) scale(0.5);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 40px)) scale(0.8);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        50%{
+            transform: translate(calc(-50% + 550px), calc(var(--y) + 10px)) scale(0.5);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 80px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+/*rotation*/
+
+@media screen and (min-width: 700px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 290px), calc(var(--y) - 60px)) scale(0.5) rotate(-90deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    
+        50%{
+            transform: translate(calc(-50% + 290px), calc(var(--y) + 60px)) scale(0.5) rotate(+90deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 750px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 310px), calc(var(--y) - 60px)) scale(0.5) rotate(-90deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    
+        50%{
+            transform: translate(calc(-50% + 310px), calc(var(--y) + 60px)) scale(0.5) rotate(+90deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 800px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 330px), calc(var(--y) - 60px)) scale(0.5) rotate(-90deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    
+        50%{
+            transform: translate(calc(-50% + 330px), calc(var(--y) + 60px)) scale(0.5) rotate(+90deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 850px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 360px), calc(var(--y) - 60px)) scale(0.5) rotate(-90deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    
+        50%{
+            transform: translate(calc(-50% + 360px), calc(var(--y) + 60px)) scale(0.5) rotate(+90deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 900px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 380px), calc(var(--y) - 60px)) scale(0.5) rotate(-90deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    
+        50%{
+            transform: translate(calc(-50% + 380px), calc(var(--y) + 60px)) scale(0.5) rotate(+90deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 950px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 350px), calc(var(--y) - 70px)) scale(0.5) rotate(-90deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    
+        50%{
+            transform: translate(calc(-50% + 350px), calc(var(--y) + 90px)) scale(0.5) rotate(+90deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 120px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 1800px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(calc(-50% - 400px), calc(var(--y) - 70px)) scale(0.5) rotate(-90deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 50px)) scale(0.80);
+            z-index: 2;
+        }
+    
+        50%{
+            transform: translate(calc(-50% + 400px), calc(var(--y) + 90px)) scale(0.5) rotate(+90deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 120px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+/* Beyond 2000px */
+@media screen and (min-width: 2000px){
+    @keyframes swipeNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 530px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+
+    @keyframes swipePrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 350px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 160px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}

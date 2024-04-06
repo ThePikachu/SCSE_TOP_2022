@@ -1,0 +1,290 @@
+@keyframes swapNext{
+    50% {
+        transform: translate(-50%, calc(var(--y) - 200px)) scale(0.6) rotate(-5deg);
+    }
+
+    100%{
+        transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+        z-index: 2;
+    }
+}
+
+@keyframes swapPrev{
+    0%{
+        transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+        z-index: 2;
+    }
+
+    50% {
+        transform: translate(-50%, calc(var(--y) - 160px)) scale(0.6) rotate(-5deg);
+    }
+
+    100% {
+        transform: translate(-50%, calc(var(--y) + 40px)) scale(1.05);
+        z-index: 4;
+    } 
+}
+
+
+@media screen and (min-width: 400px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 260px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 190px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 60px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 500px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 320px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 225px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 80px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 600px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 360px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 260px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 80px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 700px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 340px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 220px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 800px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 370px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 240px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 900px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 390px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 270px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 100px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+/* Partition */
+@media screen and (min-width: 950px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 380px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 230px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 120px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 1800px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 420px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 260px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 120px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+
+@media screen and (min-width: 2000px){
+    @keyframes swapNext{
+        50% {
+            transform: translate(-50%, calc(var(--y) - 530px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.80);
+            z-index: 2;
+        }
+    }
+    
+    @keyframes swapPrev{
+        0%{
+            transform: translate(-50%, calc(var(--y) - 15px)) scale(0.8);
+            z-index: 2;
+        }
+    
+        50% {
+            transform: translate(-50%, calc(var(--y) - 350px)) scale(0.6) rotate(-5deg);
+        }
+    
+        100% {
+            transform: translate(-50%, calc(var(--y) + 160px)) scale(1.05);
+            z-index: 4;
+        } 
+    }
+}
+

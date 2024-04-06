@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+    z-index: 10;
+    padding: 0 20%;
+    height: 50.67px;
+    align-items: center;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    transition-duration: 0.2s;
+}
+
+.dropdown {
+    background-color: black;
+    position: absolute;
+    display: block;
+    top: 50px;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.link {
+    position: relative;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: #1A1A1A;
+}
+
+.navbar-center {
+    align-self: center;
+    display: inline;
+}
+
+.navbar .hamburger-menu {
+    display: none;
+}
+
+/* Adjustment for landscape tablet screens */
+@media screen and (max-width: 1200px) {
+    .navbar {padding: 0 10%}
+}
+
+
+/* Portrait tablet screens */
+@media screen and (max-width: 920px) {
+    .navbar a { padding: 14px 30px; }
+    .navbar { padding: 0; }
+}

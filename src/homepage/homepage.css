@@ -1,0 +1,223 @@
+.storm {
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:15;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:absolute;
+	animation:flash 15s linear infinite;
+    pointer-events: none;
+}
+
+@keyframes flash{ 
+  0%,  95%,  98% {background-color:transparent}
+  96%, 99%, 100% {background-color:#fff} 
+}
+
+.container {
+    position: relative;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-div {
+    background-color: black;
+}
+
+svg {
+    position: relative;
+}
+
+.mobile-wrapper {
+    display: none;
+}
+
+.backbg {
+    position: absolute !important;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    z-index: 0;
+}
+
+.frontbg {
+    display: flex;
+    height: 80%;
+    width: 100%;
+    z-index: 1;
+}
+
+.mobilefrontbg {
+    display: none;
+    position: absolute !important;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.mobilebackbg {
+    display: none;
+    position: absolute !important;
+    width: 100%;
+    bottom: 7%;
+    z-index: 0;
+}
+
+.logoImage {
+    width: 100%;
+    /* margin-bottom: 35px; */
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 2;
+    top: 0%;
+    left: 50%;
+    width: 80%;
+    height: 100%;
+    transform: translate(-50%, -20%);
+    filter: drop-shadow(0px 0px 5px #E8E8E8);
+    animation: animate 5s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    40% {
+        opacity: 1;
+    }
+    43% {
+        opacity: 0.8;
+    }
+    44% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 0.7;
+    }
+    46% {
+        opacity: 1;
+    }
+}
+
+.logo-div {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 2;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+}
+
+
+#background-gradient {
+    background-image: linear-gradient(#335A60, #738883);
+}
+
+.button {
+    z-index: 50;
+    position: relative;
+    text-align: center;
+}
+
+.register {
+    margin-top: 20px;
+    width: 55%;
+    border-radius: 5px;
+}
+
+.register-button {
+    background-color: rgba(196, 196, 196, 0.4);
+    border: none;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #E8E8E8;
+    font-family: Inter, sans-serif;
+    text-align: center;
+    padding: 15px 40px;
+    font-size: 25px;
+    transition-duration: 0.5s !important;
+}
+
+.register:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Mobile screens */
+@media screen and (max-width: 500px) {
+    .logo {width: 130%}
+    .register-button {padding: 12.5px 20px; font-size: 15px;}
+    
+    /* .navbar {padding: 0 2% !important; justify-content: right;}
+    .navbar a {font-size: 12px; padding: 4% 4%;} */
+    .container {width: 100%; height: 100%; top: 0; left: 0; overflow: hidden; position: relative;}
+    .bg-div {position: relative; width: 100%; height: 100%; display: block;}
+    /* .backbg {bottom: 0; width: 900px; transform: translateX(-40%);}
+    .frontbg {position: absolute; width: 700px; bottom: 0; top: 0; height: 100%; transform: translateX(-32%);} */
+    .backbg {display: none;}
+    .frontbg {display: none;}
+    .mobilefrontbg {display: block; position: relative !important; }
+    .mobilebackbg {display: block;}
+    .wrapper {display: none;}
+    .bg-div {background-color: transparent; background-image: linear-gradient(#335A60, #738883);}  
+    /* .navbar a {display: none;}
+    .navbar a.hamburger-menu {float: right !important; display: block;}
+    .link {position: relative; padding: 10px 10px;} */
+}
+
+@media screen and (max-width: 500px) {
+    /* .navbar.responsive a {float: none !important; display: block !important; text-align: left;}
+    .navbar.responsive a.hamburger-menu {text-align: right !important;} */
+}
+
+/* Adjustment for landscape tablet screens */
+@media screen and (max-width: 1200px) {
+    /* .navbar {padding: 0 10%} */
+}
+
+@media screen and (max-width: 582px) {
+
+
+}
+
+/* Portrait tablet screens */
+@media screen and (max-width: 920px) {
+    .logo {width: 135%}
+    .logo-div {transform: translate(-50%, -50%);}
+    .backbg {display: none;}
+    .frontbg {display: none;}
+    .mobilefrontbg {display: block; position: relative !important; }
+    .mobilebackbg {display: block;}
+    .wrapper {display: none}
+    .mobile-wrapper {display: block}
+    /* .bg-div {background-color: transparent; background-image: linear-gradient(#335A60, #738883); } */
+    .container {width: 100%; height: 100%; top: 0; left: 0; overflow: hidden; position: relative;}
+    .bg-div {position: relative; width: 100%; height: 100%; display: block; background-image: linear-gradient(#335A60, #738883); background-color: black; }
+    /* .navbar a { padding: 14px 30px; }
+    .navbar { padding: 0; } */
+}
+
+@media screen and (min-width: 768px) {
+    .register {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .register {
+        width: 25%;
+    }
+    .logoImage {
+        width: 65%;
+    }
+}

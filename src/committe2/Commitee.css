@@ -1,0 +1,52 @@
+/* .header {
+    text-align: center;
+    color: white;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+  .column img {
+    vertical-align: middle;
+  }
+  
+
+
+  @media only screen and (min-width: 481px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+      .column {
+        flex: 33.3%;
+        max-width: 33.3%;
+      }
+  } */
+
+  #ogls {
+    color: #777e8d;
+  }
+
+  #proggies {
+    color: #8b778d;
+    /* color: #8d8d77; */
+    /* color: #8d8877; */
+  }
+
+  #youdontseeus {
+    color: #8d7777;
+    /* color: #778d77; */
+    /* color: #8d7877; */
+    /* color: #778c8d; */
+  }

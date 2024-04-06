@@ -1,0 +1,45 @@
+.lineOneShape{
+    width: 14vw;
+    height: 13vw;
+}
+
+.lineTwoShape{
+    width: 15vw;
+    height: 13vw;
+}
+
+@media screen and (min-width: 700px){
+    .lineOneShape{
+        width: 23vw;
+        height: 13vw;
+    }
+    
+    .lineTwoShape{
+        width: 18vw;
+        height: 13vw;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .lineOneShape{
+        width: 25.2vw;
+        height: 13vw;
+    }
+    
+    .lineTwoShape{
+        width: 25vw;
+        height: 13vw;
+    }
+}
+
+@media screen and (min-width: 2000px){
+    .lineOneShape{
+        width: 25.2vw;
+        height: 120px;
+    }
+    
+    .lineTwoShape{
+        width: 25vw;
+        height: 220px;
+    }
+}
